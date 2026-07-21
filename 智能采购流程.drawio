@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36" pages="2">
   <diagram id="iqnKkgdVFm9iEWa6iXyY" name="Page-1">
-    <mxGraphModel dx="1712" dy="898" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="2054" dy="1077" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -44,8 +44,8 @@
         <mxCell id="cLm7W_kprTMOcofNUPwo-12" parent="cLm7W_kprTMOcofNUPwo-4" style="rounded=1;whiteSpace=wrap;html=1;" value="获取本批次中Excel模板中的商品数据&lt;div&gt;获取bulkProcurementId&lt;/div&gt;" vertex="1">
           <mxGeometry height="70" width="360" x="80" y="325" as="geometry" />
         </mxCell>
-        <mxCell id="cLm7W_kprTMOcofNUPwo-13" parent="cLm7W_kprTMOcofNUPwo-4" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;落库&lt;/h1&gt;&lt;p&gt;1.删除智能采购匹配表 item_bulk_procurement（company_id，level2_company_id ，user_id ， biz_type，biz_resource）&lt;/p&gt;&lt;p&gt;删除Execl原始数据表 item_bulk_old_excel_info（company_id，level2_company_id ，user_id ， biz_type，biz_resource）&lt;/p&gt;&lt;p&gt;插入&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;item_bulk_procurement&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;插入&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;item_bulk_old_excel_info&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;插入智能采购匹配历史数据 表&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;item_bulk_procurement_history&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;2.设置商品匹配状态&amp;nbsp;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-size: 11px; text-align: center; text-wrap-mode: nowrap; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;status=1 查询中&lt;/span&gt;&lt;/p&gt;" vertex="1">
-          <mxGeometry height="250" width="670" x="720" y="200" as="geometry" />
+        <mxCell id="cLm7W_kprTMOcofNUPwo-13" parent="cLm7W_kprTMOcofNUPwo-4" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;落库&lt;/h1&gt;&lt;p&gt;1.删除智能采购匹配表&amp;nbsp;&lt;span style=&quot;color: rgb(51, 51, 51); font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; font-size: 14px; white-space: pre; background-color: rgb(255, 255, 255);&quot;&gt;bulk_shopping&lt;/span&gt;（company_id，level2_company_id ，user_id ， biz_type，biz_resource）&lt;/p&gt;&lt;p&gt;删除Execl原始数据表&amp;nbsp;&lt;span style=&quot;color: rgb(51, 51, 51); font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; font-size: 14px; white-space: pre; background-color: rgb(255, 255, 255);&quot;&gt;bulk_shopping_excel_head&lt;/span&gt;（company_id，level2_company_id ，user_id ， biz_type，biz_resource）&lt;/p&gt;&lt;p&gt;插入&lt;span style=&quot;background-color: rgb(255, 255, 255); color: rgb(51, 51, 51); font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; font-size: 14px; white-space: pre;&quot;&gt;bulk_shopping&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;插入&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); color: rgb(51, 51, 51); font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; font-size: 14px; white-space: pre;&quot;&gt;bulk_shopping_excel_head&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); color: rgb(51, 51, 51); font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; font-size: 14px; white-space: pre;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;2.设置商品匹配状态&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); white-space: nowrap; background-color: rgb(255, 255, 255); font-size: 11px; text-align: center;&quot;&gt;status=1 查询中&lt;/span&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="230" width="670" x="744" y="200" as="geometry" />
         </mxCell>
         <mxCell id="cLm7W_kprTMOcofNUPwo-14" edge="1" parent="cLm7W_kprTMOcofNUPwo-4" source="cLm7W_kprTMOcofNUPwo-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="cLm7W_kprTMOcofNUPwo-20">
           <mxGeometry relative="1" as="geometry" />
@@ -401,22 +401,22 @@
         <mxCell id="cLm7W_kprTMOcofNUPwo-105" parent="cLm7W_kprTMOcofNUPwo-1" style="swimlane;startSize=20;html=1;" value="数据中台" vertex="1">
           <mxGeometry height="3330" width="690" x="2450" y="20" as="geometry" />
         </mxCell>
-        <mxCell id="cLm7W_kprTMOcofNUPwo-106" parent="cLm7W_kprTMOcofNUPwo-105" style="rounded=1;whiteSpace=wrap;html=1;" value="itemBulkProcurementDubbo.getErpNoFromDataCenterV2()【由商品中心调用数据中台】" vertex="1">
+        <mxCell id="cLm7W_kprTMOcofNUPwo-106" parent="cLm7W_kprTMOcofNUPwo-105" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;itemBulkProcurementDubbo.getErpNoFromDataCenterV3&lt;/span&gt;【由商品中心调用数据中台】" vertex="1">
           <mxGeometry height="70" width="480" x="160" y="1265" as="geometry" />
         </mxCell>
         <mxCell id="cLm7W_kprTMOcofNUPwo-107" parent="cLm7W_kprTMOcofNUPwo-1" style="swimlane;startSize=20;html=1;" value="搜索中心" vertex="1">
           <mxGeometry height="3330" width="650" x="3140" y="20" as="geometry" />
         </mxCell>
-        <mxCell id="cLm7W_kprTMOcofNUPwo-108" parent="cLm7W_kprTMOcofNUPwo-107" style="rounded=1;whiteSpace=wrap;html=1;" value="fastOrderDubboApi.searchWithItemStoreAndErpNo()" vertex="1">
+        <mxCell id="cLm7W_kprTMOcofNUPwo-108" parent="cLm7W_kprTMOcofNUPwo-107" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;article class=&quot;4ever-article&quot; data-clipboard-cangjie=&quot;[&amp;quot;root&amp;quot;,{&amp;quot;copyFrom&amp;quot;:&amp;quot;im-native&amp;quot;},[&amp;quot;p&amp;quot;,{},[&amp;quot;span&amp;quot;,{&amp;quot;data-type&amp;quot;:&amp;quot;text&amp;quot;},[&amp;quot;span&amp;quot;,{&amp;quot;data-type&amp;quot;:&amp;quot;leaf&amp;quot;},&amp;quot;fastOrderDubboApi.searchWithItemStoreAndErpNo&amp;quot;]]]]&quot;&gt;&lt;p&gt;&lt;br&gt;fastOrderDubboApi.searchWithItemStoreAndErpNo&lt;/p&gt;&lt;/article&gt;" vertex="1">
           <mxGeometry height="70" width="360" x="120" y="880" as="geometry" />
         </mxCell>
-        <mxCell id="cLm7W_kprTMOcofNUPwo-109" parent="cLm7W_kprTMOcofNUPwo-107" style="rounded=1;whiteSpace=wrap;html=1;" value="fastOrderDubboApi.searchItemAggBaseNoListAll()" vertex="1">
+        <mxCell id="cLm7W_kprTMOcofNUPwo-109" parent="cLm7W_kprTMOcofNUPwo-107" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;article class=&quot;4ever-article&quot; data-clipboard-cangjie=&quot;[&amp;quot;root&amp;quot;,{&amp;quot;copyFrom&amp;quot;:&amp;quot;im-native&amp;quot;},[&amp;quot;p&amp;quot;,{},[&amp;quot;span&amp;quot;,{&amp;quot;data-type&amp;quot;:&amp;quot;text&amp;quot;},[&amp;quot;span&amp;quot;,{&amp;quot;data-type&amp;quot;:&amp;quot;leaf&amp;quot;},&amp;quot;fastOrderDubboApi.searchItemAggItemIdListAll&amp;quot;]]]]&quot;&gt;&lt;p&gt;fastOrderDubboApi.searchItemAggItemIdListAll&lt;/p&gt;&lt;/article&gt;" vertex="1">
           <mxGeometry height="70" width="360" x="120" y="1657.5" as="geometry" />
         </mxCell>
         <mxCell id="cLm7W_kprTMOcofNUPwo-110" parent="cLm7W_kprTMOcofNUPwo-1" style="swimlane;startSize=20;html=1;" value="商品中心" vertex="1">
           <mxGeometry height="3330" width="460" x="3790" y="20" as="geometry" />
         </mxCell>
-        <mxCell id="cLm7W_kprTMOcofNUPwo-111" parent="cLm7W_kprTMOcofNUPwo-110" style="rounded=1;whiteSpace=wrap;html=1;" value="itemService.fillJspClassifyStatusToTrade()" vertex="1">
+        <mxCell id="cLm7W_kprTMOcofNUPwo-111" parent="cLm7W_kprTMOcofNUPwo-110" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;article class=&quot;4ever-article&quot; data-clipboard-cangjie=&quot;[&amp;quot;root&amp;quot;,{&amp;quot;copyFrom&amp;quot;:&amp;quot;im-native&amp;quot;},[&amp;quot;p&amp;quot;,{},[&amp;quot;span&amp;quot;,{&amp;quot;data-type&amp;quot;:&amp;quot;text&amp;quot;},[&amp;quot;span&amp;quot;,{&amp;quot;data-type&amp;quot;:&amp;quot;leaf&amp;quot;},&amp;quot;itemBulkProcurementDubbo.getErpNoFromDataCenterV3&amp;quot;]]]]&quot;&gt;&lt;p&gt;&lt;br&gt;itemBulkProcurementDubbo.getErpNoFromDataCenterV3&lt;/p&gt;&lt;/article&gt;" vertex="1">
           <mxGeometry height="70" width="360" x="80" y="1195" as="geometry" />
         </mxCell>
         <mxCell id="cLm7W_kprTMOcofNUPwo-112" edge="1" parent="cLm7W_kprTMOcofNUPwo-1" source="cLm7W_kprTMOcofNUPwo-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="cLm7W_kprTMOcofNUPwo-111">
@@ -430,7 +430,7 @@
         <mxCell id="cLm7W_kprTMOcofNUPwo-114" edge="1" parent="cLm7W_kprTMOcofNUPwo-1" source="cLm7W_kprTMOcofNUPwo-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="cLm7W_kprTMOcofNUPwo-108">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="cLm7W_kprTMOcofNUPwo-115" connectable="0" parent="cLm7W_kprTMOcofNUPwo-114" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;div&gt;调用搜索中心&lt;/div&gt;按每次25行数据分批查询&lt;div&gt;返回商品数据最多25行&lt;/div&gt;" vertex="1">
+        <mxCell id="cLm7W_kprTMOcofNUPwo-115" connectable="0" parent="cLm7W_kprTMOcofNUPwo-114" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;div&gt;调用搜索中心&lt;/div&gt;按每次25行数据分批查询&lt;div&gt;每一行返回商品数据最多20条&lt;/div&gt;" vertex="1">
           <mxGeometry relative="1" x="-0.6168" y="2" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
