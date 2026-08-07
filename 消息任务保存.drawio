@@ -1,0 +1,87 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="第 1 页" id="IPYTm50HmPPGli5DHkZ3">
+    <mxGraphModel dx="1752" dy="1111" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="1QzLkCP7Hpzr2LHdzE8d-3" edge="1" parent="1" source="1QzLkCP7Hpzr2LHdzE8d-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="1QzLkCP7Hpzr2LHdzE8d-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="160" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1QzLkCP7Hpzr2LHdzE8d-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;任务保存&lt;/font&gt;" vertex="1">
+          <mxGeometry height="50" width="120" x="100" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1QzLkCP7Hpzr2LHdzE8d-7" edge="1" parent="1" source="1QzLkCP7Hpzr2LHdzE8d-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="1QzLkCP7Hpzr2LHdzE8d-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1QzLkCP7Hpzr2LHdzE8d-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-size: 15px;&quot;&gt;客户白名单处理&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 15px;&quot;&gt;保存校验不通过数据&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="100" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="1QzLkCP7Hpzr2LHdzE8d-10" edge="1" parent="1" source="1QzLkCP7Hpzr2LHdzE8d-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="1QzLkCP7Hpzr2LHdzE8d-8" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1QzLkCP7Hpzr2LHdzE8d-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;p&gt;&lt;span style=&quot;font-size: 15px;&quot;&gt;客户黑名单处理&lt;/span&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="100" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="1QzLkCP7Hpzr2LHdzE8d-21" edge="1" parent="1" source="1QzLkCP7Hpzr2LHdzE8d-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" target="1QzLkCP7Hpzr2LHdzE8d-20" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1QzLkCP7Hpzr2LHdzE8d-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;p&gt;&lt;span style=&quot;font-size: 15px;&quot;&gt;保存任务信息&lt;/span&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="100" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="1QzLkCP7Hpzr2LHdzE8d-23" edge="1" parent="1" source="1QzLkCP7Hpzr2LHdzE8d-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" target="1QzLkCP7Hpzr2LHdzE8d-22" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1QzLkCP7Hpzr2LHdzE8d-24" connectable="0" parent="1QzLkCP7Hpzr2LHdzE8d-23" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=12;fontColor=default;" value="否" vertex="1">
+          <mxGeometry relative="1" x="-0.2667" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1QzLkCP7Hpzr2LHdzE8d-27" edge="1" parent="1" source="1QzLkCP7Hpzr2LHdzE8d-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" target="1QzLkCP7Hpzr2LHdzE8d-26" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1QzLkCP7Hpzr2LHdzE8d-20" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;rounded=1;" value="任务ID是否为空" vertex="1">
+          <mxGeometry height="80" width="80" x="120" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="1QzLkCP7Hpzr2LHdzE8d-30" edge="1" parent="1" source="1QzLkCP7Hpzr2LHdzE8d-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" target="1QzLkCP7Hpzr2LHdzE8d-28">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="445" y="770" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1QzLkCP7Hpzr2LHdzE8d-22" parent="1" style="whiteSpace=wrap;html=1;rounded=1;" value="更新操作&lt;div&gt;update：message_task 任务表&lt;/div&gt;&lt;div&gt;delete：message_task_template 任务模板关联表&lt;/div&gt;&lt;div&gt;delete：message_task_rule 消息任务规则表&lt;/div&gt;&lt;div&gt;delete：message_task_rule 黑白名单&lt;/div&gt;" vertex="1">
+          <mxGeometry height="130" width="310" x="290" y="425" as="geometry" />
+        </mxCell>
+        <mxCell id="1QzLkCP7Hpzr2LHdzE8d-29" edge="1" parent="1" source="1QzLkCP7Hpzr2LHdzE8d-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" target="1QzLkCP7Hpzr2LHdzE8d-28" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1QzLkCP7Hpzr2LHdzE8d-26" parent="1" style="whiteSpace=wrap;html=1;rounded=1;" value="插入任务信息&lt;div&gt;message_task&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="100" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="1QzLkCP7Hpzr2LHdzE8d-39" edge="1" parent="1" source="1QzLkCP7Hpzr2LHdzE8d-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" target="1QzLkCP7Hpzr2LHdzE8d-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1QzLkCP7Hpzr2LHdzE8d-28" parent="1" style="whiteSpace=wrap;html=1;rounded=1;" value="插入规则表&lt;div&gt;message_task_rule&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="100" y="740" as="geometry" />
+        </mxCell>
+        <mxCell id="1QzLkCP7Hpzr2LHdzE8d-35" edge="1" parent="1" source="1QzLkCP7Hpzr2LHdzE8d-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" target="1QzLkCP7Hpzr2LHdzE8d-34" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1QzLkCP7Hpzr2LHdzE8d-32" parent="1" style="whiteSpace=wrap;html=1;rounded=1;" value="保存黑、白名单数据&lt;div&gt;message_task_rule&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="100" y="950" as="geometry" />
+        </mxCell>
+        <mxCell id="1QzLkCP7Hpzr2LHdzE8d-34" parent="1" style="whiteSpace=wrap;html=1;rounded=1;" value="保存任务模板关联表&lt;div&gt;message_task_template&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="140" x="90" y="1090" as="geometry" />
+        </mxCell>
+        <mxCell id="1QzLkCP7Hpzr2LHdzE8d-38" edge="1" parent="1" source="1QzLkCP7Hpzr2LHdzE8d-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" target="1QzLkCP7Hpzr2LHdzE8d-32" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1QzLkCP7Hpzr2LHdzE8d-36" parent="1" style="whiteSpace=wrap;html=1;rounded=1;" value="插入标签数据&lt;div&gt;message_task_rule&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="100" y="850" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
